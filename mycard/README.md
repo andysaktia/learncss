@@ -28,3 +28,33 @@ this box is display picture with difference way. focus on class bootstrap displa
     </div>
   </div>
 ```
+## set css
+this css include animate lift up box and shadow box.
+```css
+.lift {
+  transition: box-shadow .25s ease, transform .25s ease;
+}
+
+.lift:focus,
+.lift:hover {
+  box-shadow: 0 1rem 2.5rem rgba(22, 28, 45, .1), 0 .5rem 1rem -.75rem rgba(22, 28, 45, .1)!important;
+  transform: translate3d(0, -3px, 0)
+}
+
+.shadow-light {
+  box-shadow: 0 .5rem 1.5rem rgba(22, 28, 45, .05)!important
+}
+
+.shadow-light-lg {
+  box-shadow: 0 1.5rem 4rem rgba(39, 177, 23, 0.1) !important;
+}
+
+.shadow-dark {
+  box-shadow: 0 .5rem 1.5rem rgba(22, 28, 45, .15)!important
+}
+
+.shadow-dark-lg {
+  box-shadow: 0 1.5rem 4rem rgba(22, 28, 45, .15)!important
+}
+
+```
