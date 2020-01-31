@@ -1,4 +1,6 @@
-## html
+## set html
+this box is display picture with difference way. focus on class bootstrap display; `d-none` and `d-lg-none`.
+
 ```html
 <div class="col-md-6 px-0 px-md-3">
     <div class="lift row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
