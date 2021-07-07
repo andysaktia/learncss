@@ -1,0 +1,51 @@
+/*overlay dowload*/
+
+.con-rel {
+  position: relative;
+}
+
+
+.img-olay {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.olay {
+  transition: .5s ease;
+  position: absolute;
+  display: inline-block;
+  opacity: 0;
+  line-height: 1;
+  text-align: center;
+  color: #fff;
+  top: 95%;
+  left: 85%;
+}
+
+@media (max-width: 700px) {
+  .olay{
+    top: 90%;
+    left: 80%;
+  }
+.lead {
+    font-size: 1rem;
+  }
+
+}
+
+.con-rel:hover .olay {
+  opacity: 1;
+}
+
+.text-olay {
+  position: absolute;
+  top: 90%;
+  left: 90%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*-----*/
